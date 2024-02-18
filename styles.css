@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #525252;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    background-color: #FFE6C9;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 700px; 
+}
+
+
+.image {
+    height: 450px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-bottom: -5px;
+    width: 390px;
+}
+.form {
+    margin: 30px 30px;
+}
+.slack_img{
+    height: 30px;
+    width: 30px;
+}
+.form .business {
+    font-size: 45%;
+}
+.google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 230px;
+    border: 1px solid #525252;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 3px 3px;
+    cursor: pointer;
+}
+.google img {
+    height: 20px;
+}
+.google p {
+    font-size: 10px;
+    font-weight: 500;
+}
+.signEmail {
+    margin: 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+.sign {
+    color: #A1A1A1;
+    font-size: 12px;
+}
+form {
+    margin-bottom: 45px;
+}
+form div label {
+    display: block;
+    font-size: 13px;
+    color: #828282;
+}
+#emal_input {
+    width: 230px;
+}
+.email {
+    margin-bottom: 12px;
+}
+.check {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.check p {
+    color: #7F265B;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 500
+;
+}
+.check_me {
+    display: flex;
+}
+.check_me  p {
+    color: #A1A1A1;
+    font-size: 12px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.btn {
+    width: 230px;
+    background-color: #7F265B;
+    color: white;
+    border: none;
+    font-weight: 500;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.account_reg p {
+    color: #828282;
+    font-size: 13px;
+}
+.account_reg a {
+    color: #7F265B;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
